@@ -31,7 +31,7 @@ const setupHandler = async (): Promise<NextApiHandler> => {
       interval: 4000,
     },
     renderOptions: {
-      cdnUrl: 'http://localhost:3000',
+      cdnUrl: 'http://localhost:45245',
       version: null,
     },
     request: {

@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-return */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
-import { appRouter } from '~/server/api/root'
+import { appRouter } from '@/server/api/root'
 import { NextApiHandler, NextApiRequest, NextApiResponse } from 'next'
 import { nextHandler } from 'trpc-playground/handlers/next'
 
@@ -31,7 +31,7 @@ const setupHandler = async (): Promise<NextApiHandler> => {
       interval: 4000,
     },
     renderOptions: {
-      cdnUrl: 'http://localhost:3000',
+      cdnUrl: 'http://localhost:45245',
       version: null,
     },
     request: {
